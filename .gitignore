@@ -75,3 +75,31 @@ Desktop.ini
 # IDEs
 .idea/
 *.iml
+
+# Ignore model weights and large artifacts
+*.bin
+*.safetensors
+*.pt
+
+# Ignore trainer logs and checkpoints
+checkpoint-*/
+runs/
+logs/
+*.log
+
+# Ignore cache and Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+
+# Keep only what you need
+!config.json
+!tokenizer_config.json
+!tokenizer.json
+!vocab.json
+!merges.txt
+!special_tokens_map.json
