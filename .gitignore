@@ -103,3 +103,5 @@ venv/
 !vocab.json
 !merges.txt
 !special_tokens_map.json
+!pytorch_model.bin
+# 
